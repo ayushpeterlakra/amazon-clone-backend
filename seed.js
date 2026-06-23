@@ -7,20 +7,20 @@ mongoose.connect(process.env.MONGO_URI);
 
 const products = [
   {
-    title: "iPhone 15",
+    name: "iPhone 15",
     price: 79999,
-    image: "https://via.placeholder.com/200"
+    image: "https://via.placeholder.com/200",
   },
   {
-    title: "Samsung Galaxy S24",
+    name: "Samsung Galaxy S24",
     price: 69999,
-    image: "https://via.placeholder.com/200"
+    image: "https://via.placeholder.com/200",
   },
   {
-    title: "Sony Headphones",
+    name: "Sony Headphones",
     price: 9999,
-    image: "https://via.placeholder.com/200"
-  }
+    image: "https://via.placeholder.com/200",
+  },
 ];
 
 async function seedData() {
